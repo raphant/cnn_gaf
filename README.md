@@ -19,7 +19,9 @@ model.
 
 ## Notebooks
 `cnn.ipynb` - An example of the work flow
-`cnn_lstm.ipynb`- I implemented a LSTM layer into the model
+
+`cnn_lstm.ipynb`- Here I implement a LSTM layer into the model
+
 `tuner.ipynb` - An implementation of parameter hyperopting for the model.
 
 [LazyFT](https://github.com/raphant/lazyft) is used to download data and test strategies. 
