@@ -1,0 +1,19 @@
+Preprocess:
+    - Load custom data
+    Training mode:
+        1. Split timeframes:
+            * WINDOW: the rolling number of candles worth of data to process
+            * DFS: 4 timeframes of data within the same timerange
+            * LIST DATES (LD): A list of all of the dates of the timeframe used for Prediction
+            - For each INDEX in LD:
+                - For each DF in DFS -> Series list[4]:
+                    - Create data slice of size WINDOW -> DS
+                    - Grab the last 20 candles of the DS -> Series
+                    - Add that to a list -> Series list
+                - Create a decision -> 'LONG' or 'SHORT':
+                    - If the close price of the biggest timeframe > close price of the smallest timeframe:
+                        - LONG
+                    - If the close price of the biggest timeframe < the close price of the smallest timeframe:
+                        - SHORT
+
+

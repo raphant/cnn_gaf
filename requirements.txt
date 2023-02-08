@@ -1,0 +1,18 @@
+pandas
+numpy
+-e ../ftworkdir/lazyft_pkg/
+-e ../freqtrade/
+-r ../freqtrade/requirements-hyperopt.txt
+scipy
+keras
+pillow
+pyts
+tensorflow
+tensorflow-gpu
+scikit-learn
+diskcache
+matplotlib
+torchvision
+loguru
+pydantic
+autokeras
