@@ -152,4 +152,4 @@ It should **not** be considered financial advice or a production-ready trading s
 
 ## License
 
-No license is currently specified in this repository. If you intend others to use or contribute to it, consider adding a license file.
+This project is licensed under the [MIT License](LICENSE).
